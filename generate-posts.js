@@ -15,55 +15,69 @@ function saveUsedTitles(outputDir, titles) {
   const historyFile = path.join(outputDir, '.title-history.json');
   const existing = loadUsedTitles(outputDir);
   titles.forEach(t => existing.add(t));
-  // Keep last 500 titles
   const arr = Array.from(existing).slice(-500);
   fs.writeFileSync(historyFile, JSON.stringify(arr, null, 2));
 }
 
-// Expanded unique topic combinations for diversity
+// Load recently used images to prevent duplicates
+function loadUsedImages(outputDir) {
+  const historyFile = path.join(outputDir, '.image-history.json');
+  if (fs.existsSync(historyFile)) {
+    return JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+  }
+  return [];
+}
+
+function saveUsedImages(outputDir, images) {
+  const historyFile = path.join(outputDir, '.image-history.json');
+  const arr = images.slice(-50);
+  fs.writeFileSync(historyFile, JSON.stringify(arr, null, 2));
+}
+
+// Topic structures with mapped categories
 const TOPIC_STRUCTURES = [
-  // How-to guides
-  { template: "How to {action} Without Getting Caught in {year}", type: "guide" },
-  { template: "The Complete {year} Guide to {action}", type: "guide" },
-  { template: "Step-by-Step: {action} Like a Pro", type: "guide" },
-  { template: "{action}: A Beginner's Guide for {year}", type: "guide" },
+  // How-to guides -> Guides
+  { template: "How to {action} Without Getting Caught in {year}", type: "guide", category: "Guides" },
+  { template: "The Complete {year} Guide to {action}", type: "guide", category: "Guides" },
+  { template: "Step-by-Step: {action} Like a Pro", type: "guide", category: "Guides" },
+  { template: "{action}: A Beginner's Guide for {year}", type: "guide", category: "Guides" },
   
-  // Comparisons
-  { template: "{tool1} vs {tool2}: Honest Comparison ({year})", type: "comparison" },
-  { template: "We Tested {tool1} and {tool2} - Here's What We Found", type: "comparison" },
-  { template: "{tool1} or {tool2}? The Definitive Answer for {audience}", type: "comparison" },
+  // Comparisons -> Reviews
+  { template: "{tool1} vs {tool2}: Honest Comparison ({year})", type: "comparison", category: "Reviews" },
+  { template: "We Tested {tool1} and {tool2} - Here's What We Found", type: "comparison", category: "Reviews" },
+  { template: "{tool1} or {tool2}? The Definitive Answer for {audience}", type: "comparison", category: "Reviews" },
   
-  // Analysis & Research
-  { template: "Why {tool} {failVerb} in {year} (And How to Fix It)", type: "analysis" },
-  { template: "{tool} Accuracy Test: {year} Results Revealed", type: "analysis" },
-  { template: "Inside {tool}: How It Really Works ({year} Update)", type: "analysis" },
-  { template: "The Truth About {tool} That {audience} Need to Know", type: "analysis" },
+  // Analysis & Research -> Research
+  { template: "Why {tool} {failVerb} in {year} (And How to Fix It)", type: "analysis", category: "Research" },
+  { template: "{tool} Accuracy Test: {year} Results Revealed", type: "analysis", category: "Research" },
+  { template: "Inside {tool}: How It Really Works ({year} Update)", type: "analysis", category: "Research" },
+  { template: "The Truth About {tool} That {audience} Need to Know", type: "analysis", category: "Research" },
   
-  // Lists
-  { template: "{number} Proven Ways to {action} in {year}", type: "list" },
-  { template: "Top {number} {topic} Mistakes {audience} Make", type: "list" },
-  { template: "{number} {topic} Secrets That Actually Work", type: "list" },
-  { template: "{number} Things About {tool} Nobody Tells You", type: "list" },
+  // Lists -> Tips
+  { template: "{number} Proven Ways to {action} in {year}", type: "list", category: "Tips" },
+  { template: "Top {number} {topic} Mistakes {audience} Make", type: "list", category: "Tips" },
+  { template: "{number} {topic} Secrets That Actually Work", type: "list", category: "Tips" },
+  { template: "{number} Things About {tool} Nobody Tells You", type: "list", category: "Tips" },
   
-  // Problem-solving
-  { template: "Struggling with {tool}? Here's Your Solution", type: "solution" },
-  { template: "Why Your Content Fails {tool} (And How to Fix It)", type: "solution" },
-  { template: "{tool} Flagged Your Work? Do This Now", type: "solution" },
+  // Problem-solving -> Education
+  { template: "Struggling with {tool}? Here's Your Solution", type: "solution", category: "Education" },
+  { template: "Why Your Content Fails {tool} (And How to Fix It)", type: "solution", category: "Education" },
+  { template: "{tool} Flagged Your Work? Do This Now", type: "solution", category: "Education" },
   
-  // Audience-specific
-  { template: "{audience}'s Ultimate Guide to {action}", type: "audience" },
-  { template: "What Every {singleAudience} Should Know About {topic}", type: "audience" },
-  { template: "{topic} for {audience}: Everything You Need in {year}", type: "audience" },
+  // Audience-specific -> Education
+  { template: "{audience}'s Ultimate Guide to {action}", type: "audience", category: "Education" },
+  { template: "What Every {singleAudience} Should Know About {topic}", type: "audience", category: "Education" },
+  { template: "{topic} for {audience}: Everything You Need in {year}", type: "audience", category: "Education" },
   
-  // Trends & News
-  { template: "{topic} in {year}: What's Changed and What's Coming", type: "trends" },
-  { template: "The Future of {topic}: {year} Predictions", type: "trends" },
-  { template: "{year} {topic} Trends Every {singleAudience} Should Watch", type: "trends" },
+  // Trends & News -> News
+  { template: "{topic} in {year}: What's Changed and What's Coming", type: "trends", category: "News" },
+  { template: "The Future of {topic}: {year} Predictions", type: "trends", category: "News" },
+  { template: "{year} {topic} Trends Every {singleAudience} Should Watch", type: "trends", category: "News" },
   
-  // Case studies
-  { template: "How I {pastAction} Successfully (Real Results)", type: "case" },
-  { template: "Case Study: {action} Without Detection", type: "case" },
-  { template: "From Flagged to Passed: A {topic} Success Story", type: "case" },
+  // Case studies -> Research
+  { template: "How I {pastAction} Successfully (Real Results)", type: "case", category: "Research" },
+  { template: "Case Study: {action} Without Detection", type: "case", category: "Research" },
+  { template: "From Flagged to Passed: A {topic} Success Story", type: "case", category: "Research" },
 ];
 
 const VARIABLES = {
@@ -105,8 +119,36 @@ const VARIABLES = {
   number: ['5', '7', '10', '12', '15', '20']
 };
 
-const CATEGORIES = ['Education', 'Guides', 'Research', 'Reviews', 'Tips', 'News', 'Case Studies'];
-const IMAGE_INDICES = [0, 1, 2, 3, 4, 5, 10, 11, 12, 13, 20, 21, 22, 23, 50, 51, 52, 53];
+// Map categories to preferred image ranges for thematic consistency
+const CATEGORY_IMAGE_RANGES = {
+  'Education': { start: 20, end: 29 },
+  'Guides': { start: 10, end: 19 },
+  'Research': { start: 50, end: 59 },
+  'Reviews': { start: 0, end: 9 },
+  'Tips': { start: 40, end: 49 },
+  'News': { start: 30, end: 39 }
+};
+
+function getUniqueImageIndex(category, usedImages) {
+  const range = CATEGORY_IMAGE_RANGES[category] || { start: 0, end: 79 };
+  
+  // Try to find unused image in preferred range
+  for (let i = range.start; i <= range.end; i++) {
+    if (!usedImages.includes(i)) {
+      return i;
+    }
+  }
+  
+  // If all in range are used, find any unused image
+  for (let i = 0; i < 80; i++) {
+    if (!usedImages.includes(i)) {
+      return i;
+    }
+  }
+  
+  // All images used, get random from category range
+  return range.start + Math.floor(Math.random() * (range.end - range.start + 1));
+}
 
 function generateUniqueTitle(usedTitles) {
   let attempts = 0;
@@ -121,19 +163,17 @@ function generateUniqueTitle(usedTitles) {
       title = title.replace(regex, values[Math.floor(Math.random() * values.length)]);
     }
     
-    // Create a normalized version for comparison
     const normalized = title.toLowerCase().replace(/[^a-z0-9]/g, '');
     
     if (!usedTitles.has(normalized)) {
       usedTitles.add(normalized);
-      return { title, type: structure.type };
+      return { title, type: structure.type, category: structure.category };
     }
     attempts++;
   }
   
-  // Fallback: add unique identifier
   const fallbackTitle = `AI Detection Guide ${Date.now()}-${crypto.randomBytes(4).toString('hex')}`;
-  return { title: fallbackTitle, type: 'guide' };
+  return { title: fallbackTitle, type: 'guide', category: 'Guides' };
 }
 
 async function generateContent(title, type, keywords) {
@@ -195,10 +235,10 @@ Remember: Quality over quantity. Each sentence should add value.`;
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt }
       ],
-      temperature: 0.8, // Higher for more creative/unique content
+      temperature: 0.8,
       max_tokens: 5000,
-      presence_penalty: 0.3, // Encourage diverse vocabulary
-      frequency_penalty: 0.3 // Reduce repetition
+      presence_penalty: 0.3,
+      frequency_penalty: 0.3
     })
   });
 
@@ -210,18 +250,17 @@ Remember: Quality over quantity. Each sentence should add value.`;
 function generateSlug(title) {
   return title
     .toLowerCase()
-    .replace(/['']/g, '') // Remove apostrophes
+    .replace(/['']/g, '')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
-    .substring(0, 80); // Longer slugs for uniqueness
+    .substring(0, 80);
 }
 
 function generateExcerpt(content) {
-  // Get first paragraph that's not a header
   const lines = content.split('\n').filter(l => l.trim() && !l.startsWith('#'));
   const excerpt = lines.slice(0, 2).join(' ')
     .replace(/\*\*/g, '')
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Remove markdown links
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
     .trim();
   return excerpt.substring(0, 160) + (excerpt.length > 160 ? '...' : '');
 }
@@ -253,31 +292,34 @@ async function main() {
 
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-  // Load historical titles for true uniqueness
   const usedTitles = loadUsedTitles(outputDir);
+  const usedImages = loadUsedImages(outputDir);
   const newTitles = [];
+  const newImages = [];
 
   console.log(`Generating ${count} unique posts for ${dateStr}`);
   const posts = [];
 
   for (let i = 0; i < count; i++) {
     try {
-      const { title, type } = generateUniqueTitle(usedTitles);
+      const { title, type, category } = generateUniqueTitle(usedTitles);
       newTitles.push(title.toLowerCase().replace(/[^a-z0-9]/g, ''));
       
       console.log(`[${i + 1}/${count}] ${title}`);
-      console.log(`   Type: ${type}`);
+      console.log(`   Type: ${type} | Category: ${category}`);
 
       const keywords = getRandomItems(SEO_KEYWORDS, 6);
       const content = await generateContent(title, type, keywords);
       const slug = `${generateSlug(title)}-${timeStr}`;
-      const imageIndex = IMAGE_INDICES[Math.floor(Math.random() * IMAGE_INDICES.length)];
-      const category = CATEGORIES[Math.floor(Math.random() * CATEGORIES.length)];
+      
+      // Get unique image that hasn't been used recently
+      const imageIndex = getUniqueImageIndex(category, [...usedImages, ...newImages]);
+      newImages.push(imageIndex);
+      
       const wordCount = content.split(/\s+/).length;
       const readTime = Math.ceil(wordCount / 200) + ' min read';
       const excerpt = generateExcerpt(content);
 
-      // Enhanced MDX with better SEO metadata
       const mdx = `---
 title: "${title.replace(/"/g, '\\"')}"
 excerpt: "${excerpt.replace(/"/g, '\\"')}"
@@ -328,9 +370,8 @@ ${content}
         canonical: `https://passedai.io/blog/${slug}`
       });
 
-      console.log(`   ✅ ${filename} (${wordCount} words)`);
+      console.log(`   ✅ ${filename} (${wordCount} words, image: ${imageIndex})`);
       
-      // Wait between posts to avoid rate limiting
       if (i < count - 1) {
         await new Promise(r => setTimeout(r, 3000));
       }
@@ -339,10 +380,11 @@ ${content}
     }
   }
 
-  // Save used titles for future uniqueness
+  // Save used titles and images
   saveUsedTitles(outputDir, newTitles);
+  saveUsedImages(outputDir, [...usedImages, ...newImages]);
 
-  // Update index with enhanced metadata
+  // Update index
   let index = [];
   const indexPath = path.join(outputDir, 'index.json');
   if (fs.existsSync(indexPath)) {
@@ -353,7 +395,6 @@ ${content}
     }
   }
   
-  // Add new posts at the beginning, remove duplicates, keep last 200
   const slugSet = new Set();
   index = [...posts, ...index].filter(p => {
     if (slugSet.has(p.slug)) return false;
