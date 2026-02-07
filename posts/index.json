@@ -1,5 +1,19 @@
 [
   {
+    "slug": "10-things-about-gptzero-nobody-tells-you-20-04",
+    "title": "10 Things About GPTZero Nobody Tells You",
+    "excerpt": "You’ve just finished a crucial report, blog post, or assignment. You ran it through an AI writing detector like GPTZero, and your heart sinks: “This text is lik...",
+    "filename": "2026-02-07-10-things-about-gptzero-nobody-tells-you-20-04.mdx",
+    "category": "Tips",
+    "imageIndex": 48,
+    "date": "2026-02-07",
+    "publishedAt": "2026-02-07T20:04:51.366Z",
+    "readTime": "7 min read",
+    "wordCount": 1310,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/10-things-about-gptzero-nobody-tells-you-20-04"
+  },
+  {
     "slug": "why-your-content-fails-gptzero-and-how-to-fix-it-18-06",
     "title": "Why Your Content Fails GPTZero (And How to Fix It)",
     "excerpt": "You’ve spent hours crafting the perfect blog post, article, or essay. The research is solid, the structure is clean, and the prose reads smoothly. You hit “publ...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1362,
     "featured": true,
     "canonical": "https://passedai.io/blog/zerogpt-accuracy-test-2026-results-revealed-01-20"
-  },
-  {
-    "slug": "why-zerogpt-falls-short-in-2026-and-how-to-fix-it-22-18",
-    "title": "Why ZeroGPT Falls Short in 2026 (And How to Fix It)",
-    "excerpt": "Have you ever submitted a carefully crafted report, only to have it flagged as “AI-generated” by a tool like ZeroGPT? You’re not alone. In 2026, the landscape o...",
-    "filename": "2026-01-20-why-zerogpt-falls-short-in-2026-and-how-to-fix-it-22-18.mdx",
-    "category": "Research",
-    "imageIndex": 57,
-    "date": "2026-01-20",
-    "publishedAt": "2026-01-20T22:18:34.446Z",
-    "readTime": "7 min read",
-    "wordCount": 1255,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/why-zerogpt-falls-short-in-2026-and-how-to-fix-it-22-18"
   }
 ]
