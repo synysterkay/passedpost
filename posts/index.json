@@ -1,5 +1,19 @@
 [
   {
+    "slug": "ai-writing-in-2026-whats-changed-and-whats-coming-03-03",
+    "title": "AI Writing in 2026: What's Changed and What's Coming",
+    "excerpt": "Remember the panic in 2023? That sinking feeling when you’d paste your ChatGPT draft into an AI detector only to see it flagged as 100% artificial. The frantic ...",
+    "filename": "2026-02-08-ai-writing-in-2026-whats-changed-and-whats-coming-03-03.mdx",
+    "category": "News",
+    "imageIndex": 30,
+    "date": "2026-02-08",
+    "publishedAt": "2026-02-08T03:03:10.796Z",
+    "readTime": "6 min read",
+    "wordCount": 1165,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/ai-writing-in-2026-whats-changed-and-whats-coming-03-03"
+  },
+  {
     "slug": "transform-ai-text-a-beginners-guide-for-2026-00-25",
     "title": "Transform AI Text: A Beginner's Guide for 2026",
     "excerpt": "Have you ever spent hours crafting what you thought was a perfect piece of AI-generated content, only to have it flagged, dismissed, or even penalized by an AI ...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1345,
     "featured": true,
     "canonical": "https://passedai.io/blog/struggling-with-originality-ai-heres-your-solution-06-29"
-  },
-  {
-    "slug": "case-study-fool-ai-detectors-without-detection-04-40",
-    "title": "Case Study: Fool AI Detectors Without Detection",
-    "excerpt": "Have you ever spent hours crafting the perfect article, email, or report, only to have it flagged as “AI-generated” by a detection tool? You’re not alone. In 20...",
-    "filename": "2026-01-21-case-study-fool-ai-detectors-without-detection-04-40.mdx",
-    "category": "Research",
-    "imageIndex": 59,
-    "date": "2026-01-21",
-    "publishedAt": "2026-01-21T04:40:10.917Z",
-    "readTime": "8 min read",
-    "wordCount": 1403,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/case-study-fool-ai-detectors-without-detection-04-40"
   }
 ]
