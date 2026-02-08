@@ -1,5 +1,19 @@
 [
   {
+    "slug": "15-things-about-turnitin-nobody-tells-you-16-06",
+    "title": "15 Things About Turnitin Nobody Tells You",
+    "excerpt": "You’ve just submitted your paper, a mix of your own ideas and some AI-assisted sections to beat the deadline. A week later, your professor emails: “Please see m...",
+    "filename": "2026-02-08-15-things-about-turnitin-nobody-tells-you-16-06.mdx",
+    "category": "Tips",
+    "imageIndex": 42,
+    "date": "2026-02-08",
+    "publishedAt": "2026-02-08T16:06:32.122Z",
+    "readTime": "7 min read",
+    "wordCount": 1362,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/15-things-about-turnitin-nobody-tells-you-16-06"
+  },
+  {
     "slug": "12-ai-detection-bypass-secrets-that-actually-work-14-08",
     "title": "12 AI Detection Bypass Secrets That Actually Work",
     "excerpt": "Have you ever spent hours perfecting a document, only to have it flagged as “AI-generated” by a tool like Turnitin or GPTZero? In today’s academic and professio...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1380,
     "featured": true,
     "canonical": "https://passedai.io/blog/we-tested-originality-ai-and-quetext-heres-what-we-found-20-25"
-  },
-  {
-    "slug": "why-gptzero-fails-in-2026-and-how-to-fix-it-18-36",
-    "title": "Why GPTZero Fails in 2026 (And How to Fix It)",
-    "excerpt": "Remember the panic in 2023 when your professor ran your essay through an AI detector like GPTZero? Fast forward to 2026, and the landscape has shifted dramatica...",
-    "filename": "2026-01-21-why-gptzero-fails-in-2026-and-how-to-fix-it-18-36.mdx",
-    "category": "Research",
-    "imageIndex": 4,
-    "date": "2026-01-21",
-    "publishedAt": "2026-01-21T18:36:15.925Z",
-    "readTime": "7 min read",
-    "wordCount": 1238,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/why-gptzero-fails-in-2026-and-how-to-fix-it-18-36"
   }
 ]
