@@ -1,5 +1,19 @@
 [
   {
+    "slug": "what-every-student-should-know-about-human-like-ai-writing-22-05",
+    "title": "What Every Student Should Know About Human-Like AI Writing",
+    "excerpt": "Let’s be honest: AI writing tools like ChatGPT have changed the academic game. They can brainstorm, outline, and draft in seconds—a tempting shortcut when deadl...",
+    "filename": "2026-02-08-what-every-student-should-know-about-human-like-ai-writing-22-05.mdx",
+    "category": "Education",
+    "imageIndex": 23,
+    "date": "2026-02-08",
+    "publishedAt": "2026-02-08T22:05:52.992Z",
+    "readTime": "6 min read",
+    "wordCount": 1091,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/what-every-student-should-know-about-human-like-ai-writing-22-05"
+  },
+  {
     "slug": "top-15-human-like-ai-writing-mistakes-seo-specialists-make-20-04",
     "title": "Top 15 Human-Like AI Writing Mistakes SEO Specialists Make",
     "excerpt": "You’ve crafted the perfect prompt, generated thousands of words of AI generated content, and hit “publish” expecting a traffic surge. Instead, you get a whisper...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1244,
     "featured": true,
     "canonical": "https://passedai.io/blog/the-future-of-ai-text-detection-2026-predictions-03-43"
-  },
-  {
-    "slug": "we-tested-winston-ai-and-zerogpt-heres-what-we-found-01-20",
-    "title": "We Tested Winston AI and ZeroGPT - Here's What We Found",
-    "excerpt": "Have you ever pasted your carefully crafted content into an AI detector, only to be flagged as “100% AI-generated”? In today’s digital landscape, where content ...",
-    "filename": "2026-01-22-we-tested-winston-ai-and-zerogpt-heres-what-we-found-01-20.mdx",
-    "category": "Reviews",
-    "imageIndex": 6,
-    "date": "2026-01-22",
-    "publishedAt": "2026-01-22T01:20:51.254Z",
-    "readTime": "7 min read",
-    "wordCount": 1329,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/we-tested-winston-ai-and-zerogpt-heres-what-we-found-01-20"
   }
 ]
