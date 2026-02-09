@@ -1,5 +1,19 @@
 [
   {
+    "slug": "why-zerogpt-produces-false-positives-in-2026-and-how-to-fix-it-08-15",
+    "title": "Why ZeroGPT Produces False Positives in 2026 (And How to Fix It)",
+    "excerpt": "Imagine this: You’ve spent weeks researching and carefully writing a term paper. You submit it, only to receive a devastating email—your work has been flagged a...",
+    "filename": "2026-02-09-why-zerogpt-produces-false-positives-in-2026-and-how-to-fix-it-08-15.mdx",
+    "category": "Research",
+    "imageIndex": 54,
+    "date": "2026-02-09",
+    "publishedAt": "2026-02-09T08:15:11.456Z",
+    "readTime": "7 min read",
+    "wordCount": 1355,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/why-zerogpt-produces-false-positives-in-2026-and-how-to-fix-it-08-15"
+  },
+  {
     "slug": "what-every-copywriter-should-know-about-ai-detection-bypass-06-25",
     "title": "What Every Copywriter Should Know About AI Detection Bypass",
     "excerpt": "You’ve just crafted what you believe is the perfect piece of content. It’s clear, compelling, and ready to publish. But then a nagging doubt creeps in: *Will th...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1635,
     "featured": true,
     "canonical": "https://passedai.io/blog/15-ai-content-creation-secrets-that-actually-work-12-38"
-  },
-  {
-    "slug": "we-tested-turnitin-and-crossplag-heres-what-we-found-10-22",
-    "title": "We Tested Turnitin and Crossplag - Here's What We Found",
-    "excerpt": "Have you ever wondered if your carefully crafted essay or report might be flagged as AI-generated? In today’s academic and professional world, AI content detect...",
-    "filename": "2026-01-22-we-tested-turnitin-and-crossplag-heres-what-we-found-10-22.mdx",
-    "category": "Reviews",
-    "imageIndex": 9,
-    "date": "2026-01-22",
-    "publishedAt": "2026-01-22T10:22:26.560Z",
-    "readTime": "9 min read",
-    "wordCount": 1624,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/we-tested-turnitin-and-crossplag-heres-what-we-found-10-22"
   }
 ]
