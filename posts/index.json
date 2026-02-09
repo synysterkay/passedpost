@@ -1,5 +1,19 @@
 [
   {
+    "slug": "we-tested-gptzero-and-content-at-scale-heres-what-we-found-20-12",
+    "title": "We Tested GPTZero and Content at Scale - Here's What We Found",
+    "excerpt": "Ever published an article, only to have a client or professor flag it as “AI-generated”? You’re not alone. As AI writing tools become ubiquitous, so do AI conte...",
+    "filename": "2026-02-09-we-tested-gptzero-and-content-at-scale-heres-what-we-found-20-12.mdx",
+    "category": "Reviews",
+    "imageIndex": 17,
+    "date": "2026-02-09",
+    "publishedAt": "2026-02-09T20:12:38.299Z",
+    "readTime": "8 min read",
+    "wordCount": 1443,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/we-tested-gptzero-and-content-at-scale-heres-what-we-found-20-12"
+  },
+  {
     "slug": "how-to-write-undetectable-content-without-getting-caught-in-2026-18-18",
     "title": "How to Write Undetectable Content Without Getting Caught in 2026",
     "excerpt": "Remember the panic in 2023 when your professor ran your essay through GPTZero? Or the sinking feeling when a client’s “Originality AI” scan flagged your blog dr...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1307,
     "featured": true,
     "canonical": "https://passedai.io/blog/bloggerss-ultimate-guide-to-beat-gptzero-01-18"
-  },
-  {
-    "slug": "2026-ai-content-creation-trends-every-academic-writer-should-watch-22-18",
-    "title": "2026 AI Content Creation Trends Every Academic Writer Should Watch",
-    "excerpt": "The quiet panic is familiar. You’ve just run your carefully crafted dissertation chapter through an AI detector, and the result flashes back: “99% AI-Generated....",
-    "filename": "2026-01-22-2026-ai-content-creation-trends-every-academic-writer-should-watch-22-18.mdx",
-    "category": "News",
-    "imageIndex": 36,
-    "date": "2026-01-22",
-    "publishedAt": "2026-01-22T22:18:00.391Z",
-    "readTime": "7 min read",
-    "wordCount": 1211,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/2026-ai-content-creation-trends-every-academic-writer-should-watch-22-18"
   }
 ]
