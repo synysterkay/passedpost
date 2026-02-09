@@ -1,5 +1,19 @@
 [
   {
+    "slug": "bloggerss-ultimate-guide-to-fool-ai-detectors-22-11",
+    "title": "Bloggers's Ultimate Guide to Fool AI Detectors",
+    "excerpt": "You’ve just spent hours crafting the perfect blog post. Your research is solid, your arguments are compelling, and you’re confident it will rank. You hit publis...",
+    "filename": "2026-02-09-bloggerss-ultimate-guide-to-fool-ai-detectors-22-11.mdx",
+    "category": "Education",
+    "imageIndex": 24,
+    "date": "2026-02-09",
+    "publishedAt": "2026-02-09T22:11:21.061Z",
+    "readTime": "6 min read",
+    "wordCount": 1172,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/bloggerss-ultimate-guide-to-fool-ai-detectors-22-11"
+  },
+  {
     "slug": "we-tested-gptzero-and-content-at-scale-heres-what-we-found-20-12",
     "title": "We Tested GPTZero and Content at Scale - Here's What We Found",
     "excerpt": "Ever published an article, only to have a client or professor flag it as “AI-generated”? You’re not alone. As AI writing tools become ubiquitous, so do AI conte...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1261,
     "featured": true,
     "canonical": "https://passedai.io/blog/5-ai-content-creation-secrets-that-actually-work-03-29"
-  },
-  {
-    "slug": "bloggerss-ultimate-guide-to-beat-gptzero-01-18",
-    "title": "Bloggers's Ultimate Guide to Beat GPTZero",
-    "excerpt": "Have you ever poured hours into crafting what you thought was a perfect blog post, only to have a client, editor, or your own analytics suggest it \"feels roboti...",
-    "filename": "2026-01-23-bloggerss-ultimate-guide-to-beat-gptzero-01-18.mdx",
-    "category": "Education",
-    "imageIndex": 28,
-    "date": "2026-01-23",
-    "publishedAt": "2026-01-23T01:18:55.435Z",
-    "readTime": "7 min read",
-    "wordCount": 1307,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/bloggerss-ultimate-guide-to-beat-gptzero-01-18"
   }
 ]
