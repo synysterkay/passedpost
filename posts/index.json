@@ -1,5 +1,19 @@
 [
   {
+    "slug": "we-tested-originality-ai-and-content-at-scale-heres-what-we-found-03-03",
+    "title": "We Tested Originality.ai and Content at Scale - Here's What We Found",
+    "excerpt": "Ever posted an article, only to have it flagged as “AI-generated” by a client or professor? You’re not alone. As AI writing tools become ubiquitous, so do AI wr...",
+    "filename": "2026-02-11-we-tested-originality-ai-and-content-at-scale-heres-what-we-found-03-03.mdx",
+    "category": "Reviews",
+    "imageIndex": 7,
+    "date": "2026-02-11",
+    "publishedAt": "2026-02-11T03:03:13.203Z",
+    "readTime": "8 min read",
+    "wordCount": 1423,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/we-tested-originality-ai-and-content-at-scale-heres-what-we-found-03-03"
+  },
+  {
     "slug": "step-by-step-humanize-ai-text-like-a-pro-00-24",
     "title": "Step-by-Step: Humanize AI Text Like a Pro",
     "excerpt": "Have you ever spent hours crafting what you thought was a perfect piece of content, only to run it through an AI detector and watch it get flagged as 100% artif...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1409,
     "featured": true,
     "canonical": "https://passedai.io/blog/what-every-blogger-should-know-about-ai-detection-08-20"
-  },
-  {
-    "slug": "what-every-student-should-know-about-ai-text-detection-06-25",
-    "title": "What Every Student Should Know About AI Text Detection",
-    "excerpt": "You’ve just spent hours refining an essay generated with ChatGPT. It’s coherent, well-researched, and hits all the assignment points. You submit it, confident i...",
-    "filename": "2026-01-24-what-every-student-should-know-about-ai-text-detection-06-25.mdx",
-    "category": "Education",
-    "imageIndex": 29,
-    "date": "2026-01-24",
-    "publishedAt": "2026-01-24T06:25:04.558Z",
-    "readTime": "8 min read",
-    "wordCount": 1403,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/what-every-student-should-know-about-ai-text-detection-06-25"
   }
 ]
