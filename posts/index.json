@@ -1,5 +1,19 @@
 [
   {
+    "slug": "why-content-at-scale-struggles-in-2026-and-how-to-fix-it-06-24",
+    "title": "Why Content at Scale Struggles in 2026 (And How to Fix It)",
+    "excerpt": "Remember the early 2020s, when AI writing promised a content revolution? The dream was simple: push a button, scale your output infinitely, and watch your audie...",
+    "filename": "2026-02-11-why-content-at-scale-struggles-in-2026-and-how-to-fix-it-06-24.mdx",
+    "category": "Research",
+    "imageIndex": 58,
+    "date": "2026-02-11",
+    "publishedAt": "2026-02-11T06:24:58.046Z",
+    "readTime": "7 min read",
+    "wordCount": 1396,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/why-content-at-scale-struggles-in-2026-and-how-to-fix-it-06-24"
+  },
+  {
     "slug": "the-truth-about-turnitin-that-seo-specialists-need-to-know-04-44",
     "title": "The Truth About Turnitin That SEO Specialists Need to Know",
     "excerpt": "Have you ever poured hours into crafting the perfect blog post, only to have a client or editor flag it as “AI-generated”? Or perhaps you’ve watched your carefu...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1383,
     "featured": true,
     "canonical": "https://passedai.io/blog/gptzero-vs-content-at-scale-honest-comparison-2026-12-31"
-  },
-  {
-    "slug": "marketerss-ultimate-guide-to-make-content-undetectable-10-16",
-    "title": "Marketers's Ultimate Guide to Make Content Undetectable",
-    "excerpt": "Have you ever poured hours into a campaign, only to have your content flagged as “AI-generated” by a client’s internal scanner? Or watched your beautifully craf...",
-    "filename": "2026-01-24-marketerss-ultimate-guide-to-make-content-undetectable-10-16.mdx",
-    "category": "Education",
-    "imageIndex": 31,
-    "date": "2026-01-24",
-    "publishedAt": "2026-01-24T10:16:49.413Z",
-    "readTime": "7 min read",
-    "wordCount": 1280,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/marketerss-ultimate-guide-to-make-content-undetectable-10-16"
   }
 ]
