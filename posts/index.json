@@ -1,5 +1,19 @@
 [
   {
+    "slug": "why-gptzero-falls-short-in-2026-and-how-to-fix-it-12-16",
+    "title": "Why GPTZero Falls Short in 2026 (And How to Fix It)",
+    "excerpt": "Remember the panic in 2023 when your professor ran your essay through an AI detector like GPTZero? That sinking feeling when it flagged your hard work as “AI-ge...",
+    "filename": "2026-02-11-why-gptzero-falls-short-in-2026-and-how-to-fix-it-12-16.mdx",
+    "category": "Research",
+    "imageIndex": 50,
+    "date": "2026-02-11",
+    "publishedAt": "2026-02-11T12:16:02.645Z",
+    "readTime": "7 min read",
+    "wordCount": 1215,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/why-gptzero-falls-short-in-2026-and-how-to-fix-it-12-16"
+  },
+  {
     "slug": "7-things-about-gptzero-nobody-tells-you-10-18",
     "title": "7 Things About GPTZero Nobody Tells You",
     "excerpt": "You’ve just finished a paper, report, or blog post. You ran it through an AI writing assistant to polish your ideas and save time. It looks great. But then, the...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1329,
     "featured": true,
     "canonical": "https://passedai.io/blog/why-content-at-scale-misses-the-mark-in-2026-and-how-to-fix-it-18-23"
-  },
-  {
-    "slug": "2026-ai-content-creation-trends-every-freelancer-should-watch-16-19",
-    "title": "2026 AI Content Creation Trends Every Freelancer Should Watch",
-    "excerpt": "The freelance writing landscape is shifting beneath our feet. In 2024, a client’s first question was often, “Can you write this?” By 2026, the question has beco...",
-    "filename": "2026-01-24-2026-ai-content-creation-trends-every-freelancer-should-watch-16-19.mdx",
-    "category": "News",
-    "imageIndex": 32,
-    "date": "2026-01-24",
-    "publishedAt": "2026-01-24T16:19:06.283Z",
-    "readTime": "7 min read",
-    "wordCount": 1360,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/2026-ai-content-creation-trends-every-freelancer-should-watch-16-19"
   }
 ]
