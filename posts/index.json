@@ -1,5 +1,19 @@
 [
   {
+    "slug": "the-truth-about-content-at-scale-that-students-need-to-know-20-09",
+    "title": "The Truth About Content at Scale That Students Need to Know",
+    "excerpt": "You’ve just spent hours researching, drafting, and finally submitting a critical essay. A week later, your professor’s feedback arrives: “This appears to be AI-...",
+    "filename": "2026-02-12-the-truth-about-content-at-scale-that-students-need-to-know-20-09.mdx",
+    "category": "Research",
+    "imageIndex": 52,
+    "date": "2026-02-12",
+    "publishedAt": "2026-02-12T20:09:53.969Z",
+    "readTime": "8 min read",
+    "wordCount": 1482,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/the-truth-about-content-at-scale-that-students-need-to-know-20-09"
+  },
+  {
     "slug": "ai-content-creation-for-bloggers-everything-you-need-in-2026-18-19",
     "title": "AI Content Creation for Bloggers: Everything You Need in 2026",
     "excerpt": "Remember the panic in 2023? You’d spend hours crafting a blog post with an AI assistant, only to have it flagged by a detector like GPTZero or Turnitin AI. That...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1503,
     "featured": true,
     "canonical": "https://passedai.io/blog/we-tested-winston-ai-and-content-at-scale-heres-what-we-found-03-52"
-  },
-  {
-    "slug": "12-things-about-originality-ai-nobody-tells-you-01-25",
-    "title": "12 Things About Originality.ai Nobody Tells You",
-    "excerpt": "You’ve just run your essay, blog post, or report through an AI detector like Originality.ai. The result flashes back: 100% AI-Generated. Your heart sinks. Wheth...",
-    "filename": "2026-01-26-12-things-about-originality-ai-nobody-tells-you-01-25.mdx",
-    "category": "Tips",
-    "imageIndex": 44,
-    "date": "2026-01-26",
-    "publishedAt": "2026-01-26T01:25:03.798Z",
-    "readTime": "6 min read",
-    "wordCount": 1164,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/12-things-about-originality-ai-nobody-tells-you-01-25"
   }
 ]
