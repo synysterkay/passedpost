@@ -1,5 +1,19 @@
 [
   {
+    "slug": "we-tested-gptzero-and-zerogpt-heres-what-we-found-04-39",
+    "title": "We Tested GPTZero and ZeroGPT - Here's What We Found",
+    "excerpt": "Have you ever spent hours polishing an essay, only to have it flagged as “AI-generated” by your professor’s detector? Or perhaps you’ve used AI to draft a cruci...",
+    "filename": "2026-02-15-we-tested-gptzero-and-zerogpt-heres-what-we-found-04-39.mdx",
+    "category": "Reviews",
+    "imageIndex": 6,
+    "date": "2026-02-15",
+    "publishedAt": "2026-02-15T04:39:30.133Z",
+    "readTime": "8 min read",
+    "wordCount": 1500,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/we-tested-gptzero-and-zerogpt-heres-what-we-found-04-39"
+  },
+  {
     "slug": "we-tested-turnitin-and-scribbr-heres-what-we-found-03-03",
     "title": "We Tested Turnitin and Scribbr - Here's What We Found",
     "excerpt": "The moment you hit “submit” on an important paper, a wave of anxiety can follow. Did your research shine through? Was your argument clear? And increasingly: wil...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1225,
     "featured": true,
     "canonical": "https://passedai.io/blog/how-i-passed-turnitin-successfully-real-results-10-23"
-  },
-  {
-    "slug": "winston-ai-accuracy-test-2026-results-revealed-08-25",
-    "title": "Winston AI Accuracy Test: 2026 Results Revealed",
-    "excerpt": "Have you ever submitted a carefully crafted document, only to have it flagged as “AI-generated” by a detection tool? In 2026, the line between human and artific...",
-    "filename": "2026-01-28-winston-ai-accuracy-test-2026-results-revealed-08-25.mdx",
-    "category": "Research",
-    "imageIndex": 10,
-    "date": "2026-01-28",
-    "publishedAt": "2026-01-28T08:25:46.891Z",
-    "readTime": "8 min read",
-    "wordCount": 1415,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/winston-ai-accuracy-test-2026-results-revealed-08-25"
   }
 ]
