@@ -1,5 +1,19 @@
 [
   {
+    "slug": "what-every-student-should-know-about-undetectable-ai-00-20",
+    "title": "What Every Student Should Know About Undetectable AI",
+    "excerpt": "You’ve just poured hours into a paper. The arguments are sharp, the citations are perfect, and you’re genuinely proud of your work. You submit it, only to be fl...",
+    "filename": "2026-02-15-what-every-student-should-know-about-undetectable-ai-00-20.mdx",
+    "category": "Education",
+    "imageIndex": 25,
+    "date": "2026-02-15",
+    "publishedAt": "2026-02-15T00:20:57.545Z",
+    "readTime": "7 min read",
+    "wordCount": 1347,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/what-every-student-should-know-about-undetectable-ai-00-20"
+  },
+  {
     "slug": "what-every-marketer-should-know-about-ai-humanization-22-04",
     "title": "What Every Marketer Should Know About AI Humanization",
     "excerpt": "You’ve just spent hours crafting the perfect blog post, social media campaign, or product description using AI. It’s coherent, on-brand, and technically accurat...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1307,
     "featured": true,
     "canonical": "https://passedai.io/blog/gptzero-vs-quetext-honest-comparison-2026-06-29"
-  },
-  {
-    "slug": "inside-scribbr-how-it-really-works-2026-update-04-40",
-    "title": "Inside Scribbr: How It Really Works (2026 Update)",
-    "excerpt": "Have you ever submitted a carefully researched paper, only to have it flagged as \"AI-generated\" by your institution's plagiarism checker? You’re not alone. In 2...",
-    "filename": "2026-01-28-inside-scribbr-how-it-really-works-2026-update-04-40.mdx",
-    "category": "Research",
-    "imageIndex": 51,
-    "date": "2026-01-28",
-    "publishedAt": "2026-01-28T04:40:20.241Z",
-    "readTime": "7 min read",
-    "wordCount": 1341,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/inside-scribbr-how-it-really-works-2026-update-04-40"
   }
 ]
