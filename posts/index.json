@@ -1,5 +1,19 @@
 [
   {
+    "slug": "the-truth-about-content-at-scale-that-copywriters-need-to-know-18-12",
+    "title": "The Truth About Content at Scale That Copywriters Need to Know",
+    "excerpt": "You’ve just spent hours crafting what you believe is a brilliant, insightful article. You run it through an AI detector like Turnitin or GPTZero, and your heart...",
+    "filename": "2026-02-16-the-truth-about-content-at-scale-that-copywriters-need-to-know-18-12.mdx",
+    "category": "Research",
+    "imageIndex": 57,
+    "date": "2026-02-16",
+    "publishedAt": "2026-02-16T18:12:03.327Z",
+    "readTime": "8 min read",
+    "wordCount": 1424,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/the-truth-about-content-at-scale-that-copywriters-need-to-know-18-12"
+  },
+  {
     "slug": "why-your-content-fails-zerogpt-and-how-to-fix-it-16-13",
     "title": "Why Your Content Fails ZeroGPT (And How to Fix It)",
     "excerpt": "You’ve spent hours crafting the perfect article, blog post, or essay. You run it through ZeroGPT, bracing for the green “Human” result… only to be met with a gl...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1445,
     "featured": true,
     "canonical": "https://passedai.io/blog/case-study-make-content-undetectable-without-detection-00-18"
-  },
-  {
-    "slug": "struggling-with-winston-ai-heres-your-solution-22-04",
-    "title": "Struggling with Winston AI? Here's Your Solution",
-    "excerpt": "If you’ve ever felt that sinking feeling when your carefully crafted content gets flagged by Winston AI, you’re not alone. Whether you’re a student submitting a...",
-    "filename": "2026-01-30-struggling-with-winston-ai-heres-your-solution-22-04.mdx",
-    "category": "Education",
-    "imageIndex": 23,
-    "date": "2026-01-30",
-    "publishedAt": "2026-01-30T22:04:31.935Z",
-    "readTime": "7 min read",
-    "wordCount": 1252,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/struggling-with-winston-ai-heres-your-solution-22-04"
   }
 ]
