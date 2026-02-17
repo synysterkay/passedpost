@@ -1,5 +1,19 @@
 [
   {
+    "slug": "15-things-about-content-at-scale-nobody-tells-you-22-06",
+    "title": "15 Things About Content at Scale Nobody Tells You",
+    "excerpt": "You’ve mastered the art of AI writing. Your ChatGPT drafts are coherent, your Jasper outputs are polished, and you’re producing content at a scale that would ha...",
+    "filename": "2026-02-17-15-things-about-content-at-scale-nobody-tells-you-22-06.mdx",
+    "category": "Tips",
+    "imageIndex": 2,
+    "date": "2026-02-17",
+    "publishedAt": "2026-02-17T22:06:44.572Z",
+    "readTime": "7 min read",
+    "wordCount": 1312,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/15-things-about-content-at-scale-nobody-tells-you-22-06"
+  },
+  {
     "slug": "the-complete-2026-guide-to-humanize-ai-text-20-10",
     "title": "The Complete 2026 Guide to Humanize AI Text",
     "excerpt": "Have you ever read a piece of content that felt… off? The facts were there, the grammar was perfect, but it lacked soul. It read like a manual written by a robo...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1312,
     "featured": true,
     "canonical": "https://passedai.io/blog/ai-detection-bypass-for-bloggers-everything-you-need-in-2026-04-44"
-  },
-  {
-    "slug": "why-gptzero-struggles-in-2026-and-how-to-fix-it-03-03",
-    "title": "Why GPTZero Struggles in 2026 (And How to Fix It)",
-    "excerpt": "Remember when spotting AI text felt like finding a needle in a haystack? In 2024, tools like GPTZero promised to be the magnet. Fast forward to 2026, and that m...",
-    "filename": "2026-02-01-why-gptzero-struggles-in-2026-and-how-to-fix-it-03-03.mdx",
-    "category": "Research",
-    "imageIndex": 56,
-    "date": "2026-02-01",
-    "publishedAt": "2026-02-01T03:03:11.043Z",
-    "readTime": "7 min read",
-    "wordCount": 1339,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/why-gptzero-struggles-in-2026-and-how-to-fix-it-03-03"
   }
 ]
