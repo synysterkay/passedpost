@@ -1,5 +1,19 @@
 [
   {
+    "slug": "20-things-about-content-at-scale-nobody-tells-you-16-20",
+    "title": "20 Things About Content at Scale Nobody Tells You",
+    "excerpt": "You’ve discovered the secret: AI can produce a mountain of content in minutes. A blog post, ten product descriptions, and twenty social captions before your cof...",
+    "filename": "2026-02-18-20-things-about-content-at-scale-nobody-tells-you-16-20.mdx",
+    "category": "Tips",
+    "imageIndex": 9,
+    "date": "2026-02-18",
+    "publishedAt": "2026-02-18T16:20:07.826Z",
+    "readTime": "22 min read",
+    "wordCount": 4329,
+    "featured": true,
+    "canonical": "https://passedai.io/blog/20-things-about-content-at-scale-nobody-tells-you-16-20"
+  },
+  {
     "slug": "10-things-about-scribbr-nobody-tells-you-14-18",
     "title": "10 Things About Scribbr Nobody Tells You",
     "excerpt": "You’ve just run your carefully crafted essay through Scribbr’s AI Detector. The result flashes on the screen: “High probability of AI-generated content.” Panic ...",
@@ -2784,19 +2798,5 @@
     "wordCount": 1500,
     "featured": true,
     "canonical": "https://passedai.io/blog/2026-ai-text-detection-trends-every-seo-specialist-should-watch-22-04"
-  },
-  {
-    "slug": "academic-writerss-ultimate-guide-to-humanize-ai-text-20-04",
-    "title": "Academic Writers's Ultimate Guide to Humanize AI Text",
-    "excerpt": "You’ve just spent hours crafting a research paper or essay with the help of an AI writing assistant. The arguments are solid, the structure is clean, and you’ve...",
-    "filename": "2026-02-01-academic-writerss-ultimate-guide-to-humanize-ai-text-20-04.mdx",
-    "category": "Education",
-    "imageIndex": 28,
-    "date": "2026-02-01",
-    "publishedAt": "2026-02-01T20:04:30.912Z",
-    "readTime": "7 min read",
-    "wordCount": 1399,
-    "featured": true,
-    "canonical": "https://passedai.io/blog/academic-writerss-ultimate-guide-to-humanize-ai-text-20-04"
   }
 ]
